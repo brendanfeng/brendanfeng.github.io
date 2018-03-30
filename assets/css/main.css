@@ -1848,7 +1848,7 @@
 	}
 
 		a:hover {
-			color: #47D3E5;
+			color: #000080;
 		}
 
 	strong, b {
@@ -2003,7 +2003,7 @@
 	button,
 	.button {
 		background-color: transparent;
-		box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.2);
+		box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.8);
 		color: #000000 !important;
 	}
 
@@ -2012,8 +2012,9 @@
 		input[type="button"]:hover,
 		button:hover,
 		.button:hover {
-			box-shadow: inset 0 0 0 1px #47D3E5;
-			color: #47D3E5 !important;
+			box-shadow: inset 0 0 0 2px #000080;
+			background-color: rgba(255,255,255,0.8);
+			color: #000080 !important;
 		}
 
 		input[type="submit"]:active,
@@ -2022,8 +2023,8 @@
 		button:active,
 		.button:active {
 			background-color: rgba(71, 211, 229, 0.2);
-			box-shadow: inset 0 0 0 1px #47D3E5;
-			color: #47D3E5 !important;
+			box-shadow: inset 0 0 0 1px #000080;
+			color: #000080 !important;
 		}
 
 		input[type="submit"].special,
@@ -2041,7 +2042,7 @@
 			input[type="button"].special:hover,
 			button.special:hover,
 			.button.special:hover {
-				background-color: #47D3E5;
+				background-color: #000080;
 			}
 
 			input[type="submit"].special:active,
@@ -2334,8 +2335,8 @@
 		input[type="url"]:focus,
 		select:focus,
 		textarea:focus {
-			border-color: #47D3E5;
-			box-shadow: 0 0 0 1px #47D3E5;
+			border-color: #000080;
+			box-shadow: 0 0 0 1px #000080;
 		}
 
 	.select-wrapper:before {
@@ -2361,8 +2362,8 @@
 
 	input[type="checkbox"]:focus + label:before,
 	input[type="radio"]:focus + label:before {
-		border-color: #47D3E5;
-		box-shadow: 0 0 0 1px #47D3E5;
+		border-color: #000080;
+		box-shadow: 0 0 0 1px #000080;
 	}
 
 	::-webkit-input-placeholder {
@@ -2432,18 +2433,18 @@
 	}
 
 	.icon.style2:before {
-		box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.2);
+		box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 1);
 	}
 
 	a.icon.style2:hover:before {
-		box-shadow: inset 0 0 0 1px #47D3E5;
-		color: #47D3E5;
+		box-shadow: inset 0 0 0 1px #000080;
+		color: #000080;
 	}
 
 	a.icon.style2:active:before {
 		background-color: rgba(71, 211, 229, 0.1);
-		box-shadow: inset 0 0 0 1px #47D3E5;
-		color: #47D3E5;
+		box-shadow: inset 0 0 0 1px #000080;
+		color: #000080;
 	}
 
 /* Image */
@@ -3609,6 +3610,14 @@
 
 /* Banner (style3) */
 
+	.banner-background {
+		background-image: url('../../images/office.jpg');
+		background-size: cover;
+		background-position: bottom;
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+	}
+
 	.banner.style3 {
 		padding: 7rem 7rem 5rem 7rem ;
 		-moz-align-items: center;
@@ -3630,6 +3639,7 @@
 		position: relative;
 		text-align: left;
 		overflow-x: hidden;
+		background: rgba(255,255,255,0.7);
 	}
 
 		.banner.style3 .content {
@@ -3646,8 +3656,8 @@
 			-webkit-flex-shrink: 0;
 			-ms-flex-shrink: 0;
 			flex-shrink: 0;
-			width: 30rem;
-			height: 30rem;
+			width: 23rem;
+			height: 23rem;
 			border-radius: 100%;
 			margin: 0 3.5rem 2rem 0;
 		}
@@ -5447,21 +5457,24 @@
 		-webkit-justify-content: center;
 		-ms-justify-content: center;
 		justify-content: center;
-		background-color: inherit;
 		position: relative;
 		overflow-x: hidden;
 		text-align: center;
 	}
+
+#about {
+	background: rgba(255,255,255,0.7)
+}
 
 		.spotlight.style5 .content {
 			padding: 3.5rem 3.5rem 1.5rem 3.5rem ;
 			position: relative;
 			width: 40rem;
 			max-width: 52.5%;
-			background-color: inherit;
 			border-radius: 0.5rem;
 			margin-bottom: 2rem;
 			z-index: 1;
+			background-color: #ffffff;
 		}
 
 		.spotlight.style5 .image {
@@ -5479,6 +5492,7 @@
 			top: 0;
 			left: 0;
 			border-radius: 0;
+			background: transparent;
 		}
 
 			.spotlight.style5 .image img {
@@ -6182,7 +6196,7 @@
 		}
 
 			.gallery.style1 a:hover {
-				color: #47D3E5;
+				color: #000080;
 			}
 
 		.gallery.style1 strong, .gallery.style1 b {
@@ -6221,8 +6235,8 @@
 			.gallery.style1 input[type="button"]:hover,
 			.gallery.style1 button:hover,
 			.gallery.style1 .button:hover {
-				box-shadow: inset 0 0 0 1px #47D3E5;
-				color: #47D3E5 !important;
+				box-shadow: inset 0 0 0 1px #000080;
+				color: #000080 !important;
 			}
 
 			.gallery.style1 input[type="submit"]:active,
@@ -6231,8 +6245,8 @@
 			.gallery.style1 button:active,
 			.gallery.style1 .button:active {
 				background-color: rgba(71, 211, 229, 0.2);
-				box-shadow: inset 0 0 0 1px #47D3E5;
-				color: #47D3E5 !important;
+				box-shadow: inset 0 0 0 1px #000080;
+				color: #000080 !important;
 			}
 
 			.gallery.style1 input[type="submit"].special,
@@ -6250,7 +6264,7 @@
 				.gallery.style1 input[type="button"].special:hover,
 				.gallery.style1 button.special:hover,
 				.gallery.style1 .button.special:hover {
-					background-color: #47D3E5;
+					background-color: #000080;
 				}
 
 				.gallery.style1 input[type="submit"].special:active,
@@ -6512,7 +6526,7 @@
 		}
 
 			.gallery.style2 a:hover {
-				color: #47D3E5;
+				color: #000080;
 			}
 
 		.gallery.style2 strong, .gallery.style2 b {
@@ -6551,8 +6565,8 @@
 			.gallery.style2 input[type="button"]:hover,
 			.gallery.style2 button:hover,
 			.gallery.style2 .button:hover {
-				box-shadow: inset 0 0 0 1px #47D3E5;
-				color: #47D3E5 !important;
+				box-shadow: inset 0 0 0 1px #000080;
+				color: #000080 !important;
 			}
 
 			.gallery.style2 input[type="submit"]:active,
@@ -6561,8 +6575,8 @@
 			.gallery.style2 button:active,
 			.gallery.style2 .button:active {
 				background-color: rgba(71, 211, 229, 0.2);
-				box-shadow: inset 0 0 0 1px #47D3E5;
-				color: #47D3E5 !important;
+				box-shadow: inset 0 0 0 1px #000080;
+				color: #000080 !important;
 			}
 
 			.gallery.style2 input[type="submit"].special,
@@ -6580,7 +6594,7 @@
 				.gallery.style2 input[type="button"].special:hover,
 				.gallery.style2 button.special:hover,
 				.gallery.style2 .button.special:hover {
-					background-color: #47D3E5;
+					background-color: #000080;
 				}
 
 				.gallery.style2 input[type="submit"].special:active,
@@ -8083,7 +8097,7 @@
 			}
 
 				#wrapper > .invert a:hover {
-					color: #47D3E5;
+					color: #000080;
 				}
 
 			#wrapper > .invert strong, #wrapper > .invert b {
@@ -8126,8 +8140,8 @@
 				#wrapper > .invert input[type="button"]:hover,
 				#wrapper > .invert button:hover,
 				#wrapper > .invert .button:hover {
-					box-shadow: inset 0 0 0 1px #47D3E5;
-					color: #47D3E5 !important;
+					box-shadow: inset 0 0 0 1px #000080;
+					color: #000080 !important;
 				}
 
 				#wrapper > .invert input[type="submit"]:active,
@@ -8136,8 +8150,8 @@
 				#wrapper > .invert button:active,
 				#wrapper > .invert .button:active {
 					background-color: rgba(71, 211, 229, 0.2);
-					box-shadow: inset 0 0 0 1px #47D3E5;
-					color: #47D3E5 !important;
+					box-shadow: inset 0 0 0 1px #000080;
+					color: #000080 !important;
 				}
 
 				#wrapper > .invert input[type="submit"].special,
@@ -8155,7 +8169,7 @@
 					#wrapper > .invert input[type="button"].special:hover,
 					#wrapper > .invert button.special:hover,
 					#wrapper > .invert .button.special:hover {
-						background-color: #47D3E5;
+						background-color: #000080;
 					}
 
 					#wrapper > .invert input[type="submit"].special:active,
@@ -8189,8 +8203,8 @@
 				#wrapper > .invert input[type="url"]:focus,
 				#wrapper > .invert select:focus,
 				#wrapper > .invert textarea:focus {
-					border-color: #47D3E5;
-					box-shadow: 0 0 0 1px #47D3E5;
+					border-color: #000080;
+					box-shadow: 0 0 0 1px #000080;
 				}
 
 			#wrapper > .invert .select-wrapper:before {
@@ -8216,8 +8230,8 @@
 
 			#wrapper > .invert input[type="checkbox"]:focus + label:before,
 			#wrapper > .invert input[type="radio"]:focus + label:before {
-				border-color: #47D3E5;
-				box-shadow: 0 0 0 1px #47D3E5;
+				border-color: #000080;
+				box-shadow: 0 0 0 1px #000080;
 			}
 
 			#wrapper > .invert ::-webkit-input-placeholder {
@@ -8245,14 +8259,14 @@
 			}
 
 			#wrapper > .invert a.icon.style2:hover:before {
-				box-shadow: inset 0 0 0 1px #47D3E5;
-				color: #47D3E5;
+				box-shadow: inset 0 0 0 1px #000080;
+				color: #000080;
 			}
 
 			#wrapper > .invert a.icon.style2:active:before {
 				background-color: rgba(71, 211, 229, 0.1);
-				box-shadow: inset 0 0 0 1px #47D3E5;
-				color: #47D3E5;
+				box-shadow: inset 0 0 0 1px #000080;
+				color: #000080;
 			}
 
 			#wrapper > .invert ul.alt li {
