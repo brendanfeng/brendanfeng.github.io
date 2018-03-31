@@ -8428,3 +8428,17 @@
 			#wrapper.divided > .invert:first-child {
 				box-shadow: none !important;
 			}
+
+	.credits {
+		text-align: center;
+		background-image: url('../../images/office.jpg');
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: bottom;
+		background-attachment: fixed;
+	}
+
+	.credits div {
+		padding: 20px;
+		background-color: rgba(255,255,255,0.7)
+	}
