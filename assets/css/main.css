@@ -3639,7 +3639,7 @@
 		position: relative;
 		text-align: left;
 		overflow-x: hidden;
-		background: rgba(255,255,255,0.7);
+		background: rgba(255,255,255,0.8);
 	}
 
 		.banner.style3 .content {
@@ -5463,7 +5463,7 @@
 	}
 
 #about {
-	background: rgba(255,255,255,0.7)
+	background: rgba(255,255,255,0.8)
 }
 
 		.spotlight.style5 .content {
@@ -5474,7 +5474,7 @@
 			border-radius: 0.5rem;
 			margin-bottom: 2rem;
 			z-index: 1;
-			background-color: #ffffff;
+			background-color: transparent;
 		}
 
 		.spotlight.style5 .image {
@@ -8431,14 +8431,21 @@
 
 	.credits {
 		text-align: center;
-		background-image: url('../../images/office.jpg');
-		background-size: cover;
-		background-repeat: no-repeat;
-		background-position: bottom;
-		background-attachment: fixed;
+		background-color: rgba(255,255,255,0.8);
 	}
 
 	.credits div {
 		padding: 20px;
-		background-color: rgba(255,255,255,0.7)
+	}
+
+	#first {
+		background-color: rgba(255,255,255,0.8)
+	}
+
+	#second {
+		background-color: rgba(255,255,255,0.8)
+	}
+
+	#third {
+		background-color: rgba(255,255,255,0.8)
 	}
